@@ -1,0 +1,63 @@
+.jobs-Container {
+  & .jobsbox {
+    background-color: $bg-color-2;
+    padding: 1rem;
+    width: 100%;
+    display: flex;
+    margin: 1rem 0;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.05);
+    justify-content: space-between;
+    & .desc {
+      display: flex;
+      & img {
+        width: 90px;
+        height: 90px;
+        border-radius: 4px;
+        margin-right: 0.5rem;
+      }
+      & .desc-contant {
+        & p {
+          font-size: 14px;
+          font-weight: bold;
+          text-transform: capitalize;
+        }
+        & h1 {
+          font-size: 18px;
+          line-height: 21px;
+          font-weight: normal;
+          margin: 0.5rem 0;
+        }
+        & p:last-child {
+          border: 1px solid $text-color-1;
+          width: fit-content;
+          padding: 0.2rem 0.5rem;
+          border-radius: 4px;
+        }
+      }
+    }
+    & .location_time {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-end;
+      & .place_time {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        & p:first-child {
+          margin-right: 2rem;
+        }
+        & p {
+          display: inline-flex;
+          color: $text-color-2;
+          text-transform: capitalize;
+          & span {
+            margin-right: 0.5rem;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+$bg-color-1: #f6f7fb;
+$bg-color-2: #ffffff;
+$logo-color: #282538;
+$text-color-1: #334680;
+$text-color-2: #b9bdcf;
+$font-family: 'Roboto', sans-serif;
+$transition: all 0.2s linear;
+$light-shadow: 0 5px 15px #0000001a;
+$dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $font-family;
+  color: $text-color-1;
+  line-height: 1.5;
+  font-size: 0.875rem;
+  background-color: $bg-color-1;
+}
+
+input,
+button {
+  outline: none;
+  border: none;
+}
