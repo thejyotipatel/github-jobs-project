@@ -4,6 +4,7 @@ import JobsContainer from './components/jobs-container'
 import FilterSidebar from './components/filter-sidebar'
 
 function App() {
+  // https://corsanywere-core-proxy.herokuapp.com/
   return (
     <>
       <div className='app'>
@@ -12,10 +13,10 @@ function App() {
             <span>Github</span> Jobs
           </h1>
           <Header />
-          <div className='jobs-container'>
-            <FilterSidebar />
-            <JobsContainer />
-          </div>
+          {/* <div className='jobs-container'> */}
+          {/* <FilterSidebar /> */}
+          {/* <JobsContainer /> */}
+          {/* </div> */}
         </div>
       </div>
     </>
